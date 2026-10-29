@@ -1,0 +1,6 @@
+Assinaturas de sub-marcas (SVG). Todos os arquivos atuais são PLACEHOLDERS.
+Padrão de nome: <nome-da-submarca>-<versao>.svg  (sem acento, sem espaço)
+  versões comuns: principal, branca, com-marca, sem-marca, tag, elemento
+
+Referenciados em content/sections-sub.js → signatures[].src
+e em content/sections-pos.js → Arquitetura de marca (IDENT[].logo).

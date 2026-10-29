@@ -1,0 +1,4 @@
+Pacotes de download (página Downloads).
+Um .zip por assinatura e formato: <id>-<formato>.zip, ex.: horizontal-svg.zip.
+Cada zip reúne todas as versões de cor. Formatos definidos em content/brand.js → signatureFormats.
+Arquivos atuais são PLACEHOLDERS: substitua mantendo os nomes.

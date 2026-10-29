@@ -1,0 +1,77 @@
+/* ============================================================
+   MOTOR · estrutura e layout (não editar por marca)
+   Cores e fontes vêm de content/brand.js → variáveis CSS (app.js).
+   ============================================================ */
+:root{
+  --primary:#1F3A5F;
+  --accent:#E2725B;
+  --ink:#14202E;
+  --paper:#FFFFFF;
+  --on-primary:#FFFFFF;
+  --on-accent:#FFFFFF;
+  --paper-2:color-mix(in oklch, var(--primary) 5%, var(--paper));
+  --paper-3:color-mix(in oklch, var(--primary) 10%, var(--paper));
+  --ink-soft:color-mix(in oklch, var(--ink) 72%, var(--paper));
+  --ink-faint:color-mix(in oklch, var(--ink) 48%, var(--paper));
+  --line:color-mix(in oklch, var(--primary) 14%, var(--paper));
+  --line-2:color-mix(in oklch, var(--primary) 24%, var(--paper));
+  --ok:#1f8a5b;
+  --no:#d4503e;
+  --radius:16px;
+  --gap:24px;
+  --sidebar-w:300px;
+  --font-display:system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-text:system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-sub:var(--font-display);
+}
+*{ box-sizing:border-box; }
+html,body{ margin:0; height:100%; }
+body{
+  font-family:var(--font-text); background:var(--paper); color:var(--ink);
+  font-size:17px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+a{ color:var(--primary); } a:hover{ color:var(--accent); }
+
+/* ---------- layout ---------- */
+.app{ display:flex; min-height:100%; background:var(--paper); }
+.sidebar{
+  width:var(--sidebar-w); flex:0 0 var(--sidebar-w);
+  position:sticky; top:0; height:100vh; overflow:auto;
+  border-right:1px solid var(--line); background:var(--paper);
+  padding:30px 22px 22px; display:flex; flex-direction:column; gap:22px;
+}
+.main{ position:relative; flex:1 1 auto; min-width:0; max-width:1180px; padding:46px clamp(28px,5vw,80px) 100px; overflow-x:clip; }
+
+.panel{ display:none; }
+.panel.active{ display:block; animation:panelIn .35s ease; }
+@keyframes panelIn{ from{ transform:translateY(8px); } to{ transform:none; } }
+@media (prefers-reduced-motion: reduce){ .panel.active{ animation:none; } }
+
+/* ---------- grids ---------- */
+.grid{ display:grid; gap:var(--gap); }
+.grid > *{ min-width:0; }
+.cols-2{ grid-template-columns:repeat(2,minmax(0,1fr)); }
+.cols-3{ grid-template-columns:repeat(3,minmax(0,1fr)); }
+.cols-4{ grid-template-columns:repeat(4,minmax(0,1fr)); }
+@media (max-width:980px){ .cols-3,.cols-4{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (max-width:620px){ .cols-2,.cols-3,.cols-4{ grid-template-columns:1fr; } }
+.flow > * + *{ margin-top:18px; }
+.grid.flow > * + *{ margin-top:0; }
+.spacer{ height:26px; }
+
+/* ---------- responsivo: sidebar empilha ---------- */
+@media (max-width:860px){
+  .app{ flex-direction:column; }
+  .sidebar{ position:static; width:auto; flex:none; height:auto; max-height:none; border-right:0; border-bottom:1px solid var(--line); }
+  .nav{ max-height:46vh; overflow:auto; }
+  .main{ padding:32px 22px 80px; }
+  .crumb-simbolo{ display:none; }
+}
+
+.sidebar::-webkit-scrollbar{ width:8px; }
+.sidebar::-webkit-scrollbar-thumb{ background:var(--line-2); border-radius:8px; }
+
+@media print{
+  .sidebar{ display:none; }
+  .panel{ display:block !important; break-after:page; animation:none !important; }
+}

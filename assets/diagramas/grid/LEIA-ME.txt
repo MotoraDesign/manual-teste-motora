@@ -1,0 +1,4 @@
+Grid e arejamento de cada assinatura (Construção → Grid e arejamento). Arquivos atuais são PLACEHOLDERS.
+Padrão: <assinatura>-grid.svg e <assinatura>-arejamento.svg
+Os ids seguem content/brand.js → signatures (horizontal, horizontal-tagline, vertical, vertical-tagline, simbolo).
+Ao incluir/remover uma assinatura em brand.js, a página se ajusta — basta ter os arquivos com o id correspondente.

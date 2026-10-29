@@ -1,0 +1,6 @@
+Assinaturas da marca (Expressão visual → Assinaturas). Arquivos atuais são PLACEHOLDERS.
+Padrão de nome: <assinatura>-<versao>.svg
+  assinaturas: horizontal, horizontal-tagline, vertical, vertical-tagline, simbolo
+  versões:     colorida  · positivo (100% preto, para fundo branco) · negativo (100% branco, para fundo preto)
+
+A lista de assinaturas fica em content/brand.js → signatures. Remova as que a marca não tiver.

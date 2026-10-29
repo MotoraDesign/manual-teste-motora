@@ -1,0 +1,11 @@
+Diagramas da Expressão visual (SVG de preferência, ou PNG mantendo o nome base).
+Todos os arquivos atuais são PLACEHOLDERS — substitua mantendo os mesmos nomes.
+
+grid/ .......................... Construção → Grid e arejamento (um par de arquivos por assinatura)
+uso-incorreto-01a/01b..03a/03b.svg  Construção → Usos indevidos (2 exemplos por regra)
+alinhamento/ ................... Construção → Alinhamento (4 arquivos por assinatura)
+reducao/ ....................... Construção → Redução (1 arquivo por assinatura)
+figura-fundo/ .................. Cores → Figura e fundo (exemplos aplicados)
+grafismos/ ..................... Elementos → Elementos gráficos
+layout-01..04.svg .............. Layouts → Aplicação em layouts
+grid-modular.svg ............... Layouts → Grid modular

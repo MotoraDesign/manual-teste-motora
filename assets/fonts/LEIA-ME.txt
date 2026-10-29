@@ -1,0 +1,9 @@
+Arquivos de fonte (OTF/TTF/WOFF2), nomes sem acento, ex.: display-extrabold.otf.
+Declare em content/brand.js → fonts.<display|text|sub>.files = [{ src: "assets/fonts/display-extrabold.otf", weight: 800 }].
+Confira a licença antes de publicar no GitHub Pages.
+
+Downloads na página Tipografia (arquivos atuais são PLACEHOLDERS — substitua mantendo os nomes):
+  fonte-display.zip / fonte-display-licenca.txt
+  fonte-texto.zip / fonte-texto-licenca.txt
+  fonte-sub-marca.zip / fonte-sub-marca-licenca.txt (só marcas com sub-marcas)
+A licença também pode ser uma URL (brand.js → fonts.X.license).

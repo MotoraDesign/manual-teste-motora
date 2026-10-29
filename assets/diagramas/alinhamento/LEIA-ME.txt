@@ -1,0 +1,3 @@
+Alinhamento de cada assinatura (Construção → Alinhamento). Arquivos atuais são PLACEHOLDERS.
+Padrão: <assinatura>-preferencial.svg, -secundario.svg, -indevido-1.svg, -indevido-2.svg
+Se a assinatura tiver só um exemplo indevido, use alignBad: 1 nela em content/brand.js → signatures.

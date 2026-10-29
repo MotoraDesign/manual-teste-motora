@@ -1,0 +1,3 @@
+Exemplos aplicados de figura e fundo (Cores → Figura e fundo). Arquivos atuais são PLACEHOLDERS (proporção 4:5).
+correto-01..03.svg / indevido-01..03.svg — legendas em content/brand.js → colors.figuraFundo.exemplos
+As combinações principais e a matriz de contraste são geradas automaticamente a partir das cores; não precisam de imagem.

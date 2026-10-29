@@ -1,0 +1,5 @@
+Peças aplicadas (PNG/JPG). Os arquivos atuais são PLACEHOLDERS — substitua mantendo os nomes.
+
+exemplo-01..04.png ..... Layouts → Exemplos
+evento-card.png ........ Sub-marcas → eixo temático A → evento exemplo
+evento-banner.png ...... Sub-marcas → eixo temático A → evento exemplo

@@ -1,0 +1,6 @@
+Elementos gráficos / grafismos (Elementos → Elementos gráficos). Arquivos atuais são PLACEHOLDERS (proporção 4:5).
+grafismo-01..03.svg ..... Os grafismos (um por família/configuração)
+composicao-01..03.svg ... Composição (com texto / com fotografia + texto)
+correto-01..03.svg ...... Aplicações corretas
+indevido-01..06.svg ..... Aplicações a evitar
+Quantidade e legendas: content/sections-vis.js → seção 'elementos-editoriais' (GRUPOS, USOS, CORRETOS, INDEVIDOS).

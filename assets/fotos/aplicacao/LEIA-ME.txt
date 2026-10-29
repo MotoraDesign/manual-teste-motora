@@ -1,0 +1,3 @@
+Fotos para os exemplos de marca sobre fundos fora da paleta (Cores → Aplicação da marca).
+Arquivos atuais são PLACEHOLDERS: substitua mantendo os nomes aplicacao-foto-01..02.jpg.
+A cor da marca sobre cada foto fica em content/brand.js → colors.aplicacao.foraPaleta.exemplos.

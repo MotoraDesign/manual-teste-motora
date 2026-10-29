@@ -1,0 +1,11 @@
+Fotos da marca (JPG, ~1600px, < 1 MB, sem acento). Os arquivos atuais são PLACEHOLDERS — substitua mantendo os nomes.
+
+conceito-destaque.jpg .. Construção → Conceito (logo aplicado, 1600×900)
+persona.jpg ............ Personalidade → Brand persona
+foto-01..06.jpg ........ Personalidade → Direção de imagens
+tratamento-01..02.jpg .. Layouts → Uso de imagens
+dress-code/ ............ Cultura → Dress code
+arquitetura/ ........... Experiência → Direcionamento arquitetônico
+produto/ ............... Experiência → Características
+aplicacao/ ............. Cores → Aplicação da marca (fotos fora da paleta)
+slogan-fundo.jpg ....... (opcional) fundo do banner de slogan → brand.js images.sloganBg

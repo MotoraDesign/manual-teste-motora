@@ -1,0 +1,3 @@
+Redução / tamanho mínimo de cada assinatura (Construção → Redução). Arquivos atuais são PLACEHOLDERS.
+Padrão: <assinatura>-reducao.svg
+Os valores mínimos ficam em content/brand.js → signatures (minPrint em mm, minDigital em px).

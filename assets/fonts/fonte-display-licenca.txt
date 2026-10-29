@@ -1,0 +1,2 @@
+PLACEHOLDER: substitua pela licença da fonte (display), mantendo o nome do arquivo.
+Se a licença estiver num site, coloque a URL em content/brand.js → fonts → license.

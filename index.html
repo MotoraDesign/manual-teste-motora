@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manual da marca</title>
+  <link rel="stylesheet" href="engine/styles.css">
+  <link rel="stylesheet" href="engine/hifi.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <button class="wm-home" id="homeBtn" type="button" title="Voltar ao início">
+          <img id="sideLogo" alt="">
+          <span class="wm-text" id="sideName"></span>
+          <small>brand manual</small>
+        </button>
+      </div>
+      <div class="search">
+        <span class="mag"></span>
+        <input id="searchInput" type="text" placeholder="Buscar no manual…" aria-label="Buscar">
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="side-foot" id="sideFoot"></div>
+    </aside>
+
+    <main class="main" data-screen-label="manual">
+      <div class="crumb" id="crumb"></div>
+      <img class="crumb-simbolo" id="crumbSymbol" alt="" aria-hidden="true">
+      <h1 class="page-title" id="pageTitle"></h1>
+      <p class="page-sub" id="pageSub"></p>
+      <div id="panels"></div>
+    </main>
+  </div>
+
+  <!-- conteúdo (muda por marca) -->
+  <script src="content/brand.js"></script>
+  <!-- motor (fixo) -->
+  <script src="engine/wf-lib.js"></script>
+  <!-- seções (muda por marca) -->
+  <script src="content/sections-pos.js"></script>
+  <script src="content/sections-vis.js"></script>
+  <script src="content/sections-sub.js"></script>
+  <script src="content/sections-creditos.js"></script>
+  <script src="content/overrides.js"></script>
+  <!-- motor (fixo) -->
+  <script src="engine/app.js"></script>
+  <script src="engine/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Fotos de referência de DRESS CODE (Cultura → Dress code).
+
+Nomes esperados (JPG, ~1600px, < 1 MB, sem acento):
+  dress-code-01.jpg
+  dress-code-02.jpg
+  dress-code-03.jpg
+
+Os arquivos atuais são PLACEHOLDERS: substitua mantendo os mesmos nomes.
+Para mudar quantidade ou legendas: content/sections-pos.js → seção 'pos-dresscode'.
