@@ -6,8 +6,8 @@
    ============================================================ */
 window.BRAND = {
   /* ---- identidade ---- */
-  name: 'aurora',                       // grafia OFICIAL (respeite minúsculas/maiúsculas)
-  fullName: 'aurora estúdio',           // nome completo / razão de uso institucional
+  name: 'Teste Motora',                       // grafia OFICIAL (respeite minúsculas/maiúsculas)
+  fullName: 'Teste Motora',           // nome completo / razão de uso institucional
   tagline: '[preencher] descrição curta da marca em uma linha',
   slogan: 'Uma frase que *resume* a marca',   // *palavra* = destaque na cor de acento
   manualTitle: 'Manual da marca',
@@ -221,7 +221,7 @@ window.BRAND = {
      O token do GitHub é informado no próprio manual e fica salvo só no navegador de quem publica. */
   admin: {
     passwordHash: '1f7589a3',
-    repo: '',        // ex.: 'motora/manual-aurora'
+    repo: 'MotoraDesign/manual-teste-motora',        // ex.: 'motora/manual-aurora'
     branch: 'main',
     path: '',
   },
